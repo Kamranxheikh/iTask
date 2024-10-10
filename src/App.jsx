@@ -79,7 +79,7 @@ function App() {
             {Todos.map(item => (
               
               <div key={item.id} className='w-full px-20 flex  justify-between items-center '>
-                <div className='flex gap-5 space-x-2'>
+                <div className='flex gap-2 space-x-1'>
                 <input 
                   name={item.id} 
                   onChange={handleCheckbox} 
